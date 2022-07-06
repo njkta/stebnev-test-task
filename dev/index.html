@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="@@webRoot/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>ТВК Южный</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-line">
+            <div class="logo">
+                <img class="logo__img" src="@@webRoot/img/logo.png">
+                <span class="logo__text">Сельскохозяйственная техника</span>
+            </div>
+            <nav class="nav hide-mobile">
+                    <div class="nav__item_parent">
+                        <a class="nav__item" href="javascript:void(0)">Техника</a>
+                        <div class="nav__item_children">
+                            <a class="nav__item nav__item_child" href="#">Тракторы</a>
+                            <a class="nav__item nav__item_child" href="#">Дисковые орудия</a>
+                            <a class="nav__item nav__item_child" href="#">Плуги</a>
+                            <a class="nav__item nav__item_child" href="#">Культиваторы</a>
+                            <a class="nav__item nav__item_child" href="#">Посевная технкиа</a>
+                            <a class="nav__item nav__item_child" href="#">Катки</a>
+                            <a class="nav__item nav__item_child" href="#">Вспомогательная техника</a>
+                            <a class="nav__item nav__item_child" href="#">Уборка урожая</a>
+                            <a class="nav__item nav__item_child" href="#">Обработка и погрузка зерна</a>
+                            <a class="nav__item nav__item_child" href="#">Заготовка корамов</a>
+                            <a class="nav__item nav__item_child" href="#">Внесение удобрений, защита растений</a>
+                            <a class="nav__item nav__item_child" href="#">Техника Б/У</a>
+                        </div>
+                    </div>
+                    <a class="nav__item" href="#">Точное земледелие</a>
+                    <a class="nav__item" href="#">Запчасти</a>
+                    <a class="nav__item" href="#">Сервис</a>
+                    <a class="nav__item" href="#">Акции</a>
+                    <a class="nav__item" href="#">Контакты</a>
+                </nav>
+            <div class="other-info">
+                <div class="phone">
+                    <a class="hide-mobile" href="tel:88004440699">8 800 444 06 99</a>
+                    <svg class="hide-desktop" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.2178 17C11.6691 17 11.125 16.903 10.5929 16.7097C8.24893 15.8582 6.07322 14.4714 4.30091 12.6991C2.5286 10.9268 1.14176 8.75106 0.290302 6.40708C0.016686 5.6538 -0.0640607 4.87621 0.0503858 4.09584C0.157594 3.36487 0.440739 2.65524 0.869241 2.04367C1.29964 1.4294 1.87343 0.918494 2.52857 0.56619C3.2272 0.190512 3.98974 0 4.79508 0C5.04556 0 5.26203 0.175007 5.31453 0.419903L6.14836 4.31112C6.18611 4.48732 6.13195 4.67066 6.00456 4.79809L4.57977 6.22284C5.92384 8.89512 8.1048 11.0761 10.7771 12.4201L12.2018 10.9954C12.3293 10.868 12.5126 10.8139 12.6888 10.8516L16.58 11.6854C16.8249 11.7379 16.9999 11.9544 16.9999 12.2048C16.9999 13.0102 16.8094 13.7728 16.4337 14.4714C16.0814 15.1265 15.5705 15.7003 14.9562 16.1307C14.3447 16.5592 13.6351 16.8424 12.9041 16.9496C12.675 16.9832 12.446 17 12.2178 17ZM4.37063 1.0857C3.30834 1.20297 2.36548 1.75976 1.73936 2.65339C1.03528 3.65824 0.8711 4.89417 1.28891 6.04435C2.92589 10.5507 6.4493 14.0741 10.9556 15.7111C12.1058 16.1289 13.3417 15.9647 14.3466 15.2606C15.2402 14.6345 15.797 13.6916 15.9143 12.6294L12.7488 11.951L11.2608 13.439C11.1025 13.5974 10.8619 13.6394 10.6593 13.5442C7.49884 12.0594 4.94057 9.50115 3.45579 6.34067C3.3606 6.13804 3.40264 5.89746 3.56097 5.73916L5.04894 4.25119L4.37063 1.0857Z" fill="black"/>
+                    </svg>
+                </div>
+                <form class="search">
+                    <label class="search-label">
+                        <input type="search" class="search-input">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.476 16.564L20.6871 21.7754C20.8354 21.9236 21.033 22 21.2307 22C21.4284 22 21.626 21.9236 21.7743 21.7754C22.0752 21.4744 22.0752 20.9847 21.7743 20.6837L16.5632 15.4723C17.9558 13.8326 18.7959 11.7121 18.7959 9.39841C18.7959 4.21401 14.5776 0 9.39793 0C4.21829 0 0 4.21405 0 9.3985C0 14.5829 4.21829 18.7969 9.40242 18.7969C11.716 18.7969 13.8363 17.9567 15.476 16.564ZM1.54086 9.3985C1.54086 5.06319 5.06733 1.54103 9.39793 1.54103C13.7285 1.54103 17.255 5.06768 17.255 9.3985C17.255 13.7293 13.7285 17.256 9.39793 17.256C5.06733 17.256 1.54086 13.7292 1.54086 9.3985Z" fill="currentColor"/>
+                        </svg>
+                    </label>
+                </form>
+                <div class="right-menu-container">
+                    <div class="right-menu-wr">
+                        <span class="menu-text">Меню</span>
+                        <div class="icon-menu"></div>
+                    </div>
+                    <nav class="right-menu">
+                        <a class="right-menu__item" href="#">О компании</a>
+                        <a class="right-menu__item" href="#">Вакансии</a>
+                        <a class="right-menu__item" href="#">События</a>
+                        <a class="right-menu__item" href="#">Финансовые программы</a>
+                        <a class="right-menu__item" href="#">Демопоказ</a>
+                        <div class="nav-mobile">
+                            <a class="right-menu__item" href="#">Техника</a>
+                            <a class="right-menu__item" href="#">Точное земледелие</a>
+                            <a class="right-menu__item" href="#">Запчасти</a>
+                            <a class="right-menu__item" href="#">Сервис</a>
+                            <a class="right-menu__item" href="#">Акции</a>
+                            <a class="right-menu__item" href="#">Контакты</a>
+                        </div>
+                    </nav>
+                    <div class="right-menu__contacts">
+                        <div class="phone phone_white">
+                            <a href="tel:88004440699">8 800 444 06 99</a>
+                        </div>
+                        <div class="mail">
+                            <a href="mailto:reklama@tvk-ug.ru">reklama@tvk-ug.ru</a>
+                        </div>
+                        <div class="address">Ростовская обл. Аксайский район, х. Ленина. 1084 км. автомагистрали м-4 «дон-2»</div>
+                        <div class="social-links">
+                            <a href="" class="social-links__item">
+                                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.82584 19H15.305C17.3784 19 19.0654 17.3129 19.0654 15.2396V3.76041C19.0654 1.68704 17.3784 0 15.305 0H3.82584C1.75247 0 0.0654297 1.68704 0.0654297 3.76041V15.2396C0.0654297 17.3129 1.75247 19 3.82584 19ZM1.25293 3.76041C1.25293 2.34175 2.40718 1.1875 3.82584 1.1875H15.305C16.7237 1.1875 17.8779 2.34175 17.8779 3.76041V15.2396C17.8779 16.6582 16.7237 17.8125 15.305 17.8125H3.82584C2.40718 17.8125 1.25293 16.6582 1.25293 15.2396V3.76041Z" fill="currentColor"/>
+                                    <path d="M9.56556 14.3538C12.2414 14.3538 14.4185 12.1767 14.4185 9.50086C14.4185 6.82503 12.2414 4.64795 9.56556 4.64795C6.88973 4.64795 4.71265 6.82503 4.71265 9.50086C4.71265 12.1767 6.88973 14.3538 9.56556 14.3538ZM9.56556 5.83545C11.5867 5.83545 13.231 7.47974 13.231 9.50086C13.231 11.522 11.5867 13.1663 9.56556 13.1663C7.54444 13.1663 5.90015 11.522 5.90015 9.50086C5.90015 7.47974 7.54444 5.83545 9.56556 5.83545V5.83545Z" fill="currentColor"/>
+                                    <path d="M14.5987 5.82782C15.3793 5.82782 15.9675 5.24199 15.9675 4.46536C15.9675 3.65549 15.3484 3.10291 14.5995 3.10291C13.8189 3.10291 13.2307 3.68874 13.2307 4.46536C13.2307 5.27365 13.8466 5.82782 14.5987 5.82782ZM14.7388 4.33474C14.989 4.55561 14.4182 4.82399 14.4182 4.46615C14.4182 4.2524 14.7088 4.30782 14.7388 4.33474Z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                            <a href="" class="social-links__item">
+                                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.6107 0.271637C16.4564 0.138405 16.2686 0.0499246 16.0677 0.0157817C15.8667 -0.0183612 15.6603 0.00313525 15.4707 0.0779423L0.710275 5.87669C0.485153 5.96513 0.294721 6.12409 0.167475 6.32978C0.0402287 6.53548 -0.0169902 6.77685 0.00438008 7.01777C0.0257504 7.2587 0.124561 7.48622 0.286026 7.66631C0.447492 7.84639 0.66293 7.96935 0.900104 8.01679L4.77791 8.79231V13.6065C4.77771 13.828 4.84327 14.0446 4.96627 14.2289C5.08927 14.4131 5.26419 14.5567 5.46887 14.6415C5.67355 14.7263 5.89878 14.7484 6.11604 14.7051C6.33331 14.6617 6.53282 14.5549 6.68932 14.3981L8.87027 12.2172L12.1322 15.0877C12.335 15.2678 12.5968 15.3674 12.8681 15.3678C12.9861 15.3676 13.1032 15.349 13.2154 15.3127C13.4005 15.254 13.5669 15.1478 13.6981 15.0047C13.8293 14.8616 13.9207 14.6866 13.9632 14.4971L16.9714 1.37023C17.0172 1.17163 17.0078 0.96427 16.9442 0.770622C16.8807 0.576975 16.7653 0.404416 16.6107 0.271637V0.271637ZM0.960361 6.93295C0.955182 6.89826 0.96247 6.86285 0.980931 6.83302C0.999392 6.80319 1.02783 6.78087 1.06119 6.77003L13.4119 1.91793L5.14656 7.88731L1.08829 7.07565C1.05353 7.07084 1.0216 7.05387 0.998178 7.02774C0.974754 7.00162 0.961354 6.96803 0.960361 6.93295V6.93295ZM6.01069 13.7195C5.98832 13.7419 5.95982 13.7572 5.9288 13.7633C5.89777 13.7695 5.86561 13.7663 5.83638 13.7542C5.80715 13.7421 5.78217 13.7216 5.76459 13.6953C5.74702 13.669 5.73764 13.6381 5.73764 13.6065V9.46042L8.14836 11.5819L6.01069 13.7195ZM13.0277 14.2827C13.0215 14.3098 13.0084 14.3347 12.9897 14.3551C12.971 14.3756 12.9473 14.3908 12.9209 14.3993C12.8945 14.4078 12.8664 14.4093 12.8393 14.4037C12.8121 14.3981 12.7869 14.3855 12.7661 14.3672L6.02615 8.43595L16.022 1.21676L13.0277 14.2827Z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                            <a href="" class="social-links__item">
+                                <svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.17684 19H3.35538C2.8841 19 2.50074 18.5866 2.50074 18.0784V11.2154H0.854639C0.383364 11.2154 0 10.8019 0 10.2938V7.35302C0 6.8448 0.383364 6.43137 0.854639 6.43137H2.50074V4.95874C2.50074 3.49857 2.92591 2.25628 3.73014 1.36638C4.538 0.47242 5.66699 0 6.99505 0L9.14684 0.0037689C9.61731 0.00463867 10 0.41806 10 0.925415V3.65585C10 4.16408 9.61677 4.5775 9.14563 4.5775L7.69686 4.57808C7.25502 4.57808 7.14251 4.67361 7.11845 4.70289C7.0788 4.75145 7.03162 4.88873 7.03162 5.26779V6.43123H9.03675C9.1877 6.43123 9.33395 6.47138 9.45963 6.54705C9.73076 6.71042 9.89932 7.01933 9.89932 7.35316L9.89824 10.2939C9.89824 10.8019 9.51488 11.2153 9.04361 11.2153H7.03162V18.0784C7.03162 18.5866 6.64812 19 6.17684 19V19ZM3.53362 17.8861H5.9986V10.7168C5.9986 10.3774 6.25467 10.1014 6.56921 10.1014H8.86537L8.86631 7.54523H6.56908C6.25454 7.54523 5.9986 7.26923 5.9986 6.92989V5.26779C5.9986 4.83263 6.0396 4.33774 6.34419 3.96577C6.71224 3.51611 7.29225 3.46422 7.69659 3.46422L8.96712 3.46364V1.11734L6.99425 1.11386C4.85994 1.11386 3.53362 2.58722 3.53362 4.95874V6.92989C3.53362 7.26909 3.27768 7.54523 2.96314 7.54523H1.03288V10.1014H2.96314C3.27768 10.1014 3.53362 10.3774 3.53362 10.7168V17.8861ZM9.14482 1.11763H9.14496H9.14482Z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                            <a href="" class="social-links__item">
+                                <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.7321 7.7415L9.09276 5.20304C8.826 5.05708 8.5107 5.06253 8.24923 5.21745C7.98759 5.37254 7.83154 5.64651 7.83154 5.9506V10.984C7.83154 11.2866 7.98663 11.5601 8.2465 11.7153C8.38221 11.7964 8.53265 11.8371 8.68341 11.8371C8.82152 11.8371 8.95994 11.803 9.08732 11.7344L13.7269 9.23968C14.0023 9.09148 14.1742 8.80517 14.1755 8.49227C14.1766 8.17937 14.0068 7.89178 13.7321 7.7415V7.7415ZM9.06216 10.3508V6.5889L12.5296 8.48618L9.06216 10.3508Z" fill="currentColor"/>
+                                    <path d="M20.8454 4.48181L20.8444 4.47219C20.8266 4.30316 20.6496 2.7997 19.9187 2.03499C19.0739 1.13553 18.1161 1.02627 17.6555 0.973875C17.6174 0.969549 17.5824 0.965544 17.5512 0.961378L17.5145 0.957533C14.7383 0.755661 10.5456 0.728104 10.5036 0.727943L10.4999 0.727783L10.4962 0.727943C10.4543 0.728104 6.26156 0.755661 3.46035 0.957533L3.42334 0.961378C3.39354 0.965384 3.36069 0.969069 3.32496 0.973234C2.86963 1.02579 1.92211 1.13521 1.07489 2.06719C0.378751 2.82373 0.177519 4.29499 0.156852 4.46034L0.154448 4.48181C0.1482 4.55214 0 6.22656 0 7.90755V9.47894C0 11.1599 0.1482 12.8343 0.154448 12.9048L0.15557 12.9154C0.173354 13.0817 0.350232 14.5576 1.07777 15.3227C1.87212 16.192 2.87652 16.307 3.41677 16.3689C3.50216 16.3786 3.5757 16.387 3.62585 16.3958L3.6744 16.4025C5.27736 16.555 10.3032 16.6302 10.5163 16.6332L10.5227 16.6334L10.5291 16.6332C10.5711 16.6331 14.7636 16.6055 17.5398 16.4036L17.5765 16.3998C17.6116 16.3952 17.651 16.391 17.6943 16.3865C18.147 16.3384 19.0894 16.2386 19.925 15.3193C20.6211 14.5626 20.8225 13.0913 20.843 12.9262L20.8454 12.9047C20.8516 12.8342 21 11.1599 21 9.47894V7.90755C20.9998 6.22656 20.8516 4.5523 20.8454 4.48181V4.48181ZM19.7692 9.47894C19.7692 11.0348 19.6334 12.6371 19.6205 12.7842C19.5683 13.1894 19.356 14.1202 19.0168 14.4889C18.4939 15.0642 17.9567 15.1213 17.5645 15.1628C17.5171 15.1677 17.4732 15.1725 17.4334 15.1775C14.7482 15.3717 10.7138 15.4015 10.528 15.4026C10.3195 15.3996 5.36724 15.3238 3.81314 15.1794C3.73351 15.1665 3.64748 15.1565 3.5568 15.1463C3.09682 15.0936 2.46717 15.0215 1.98299 14.4889L1.97162 14.4767C1.63837 14.1295 1.43217 13.2591 1.37978 12.789C1.37001 12.6778 1.23062 11.0566 1.23062 9.47894V7.90755C1.23062 6.35345 1.36616 4.75289 1.3793 4.60277C1.44162 4.12549 1.65792 3.25103 1.98299 2.89759C2.52196 2.30479 3.09025 2.2391 3.46611 2.19568C3.502 2.19152 3.53549 2.18767 3.56641 2.18367C6.29072 1.98852 10.3541 1.95952 10.4999 1.9584C10.6457 1.95936 14.7077 1.98852 17.4078 2.18367C17.441 2.18783 17.4772 2.192 17.5161 2.19648C17.9027 2.24054 18.487 2.30719 19.0233 2.87916L19.0282 2.88445C19.3615 3.23164 19.5677 4.11731 19.6201 4.59684C19.6294 4.70178 19.7692 6.32653 19.7692 7.90755V9.47894Z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                            <a href="" class="social-links__item">
+                                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.4286 4.85714C14.3014 4.85714 12.5714 3.12721 12.5714 1H10V13.2143C10 14.9873 8.55871 16.4286 6.78571 16.4286C5.01271 16.4286 3.57143 14.9873 3.57143 13.2143C3.57143 11.4413 5.01271 10 6.78571 10C7.00686 10 7.22029 10.0225 7.42857 10.0656V7.4665C7.21771 7.44336 7.00429 7.42857 6.78571 7.42857C3.59393 7.42857 1 10.0225 1 13.2143C1 16.4061 3.59393 19 6.78571 19C9.9775 19 12.5714 16.4061 12.5714 13.2143V6.13C13.6489 6.94129 14.9796 7.42857 16.4286 7.42857C16.8631 7.42857 17.2926 7.38357 17.7143 7.2955V4.62121C17.2996 4.76907 16.8683 4.85714 16.4286 4.85714Z" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="first-screen">
+        <div class="swiper main-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="main-slider__video" style="padding:56.25% 0 0 0;">
+                        <iframe src="https://player.vimeo.com/video/85247828?h=4b39d3cb4f&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+
+                    <div class="container">
+                        <div class="main-slider__info">
+                            <div class="h1 main-slider__title">Продажа сельхозтехники</div>
+                            <div class="main-slider__text">В помощь высоким урожаям!</div>
+                            <a href="javascript:void(0)" class="main-slider__btn btn">Заказать консультацию</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main-slider__video" style="padding:56.25% 0 0 0;">
+                        <iframe src="https://player.vimeo.com/video/85247828?h=4b39d3cb4f&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+
+
+                    <div class="container">
+                        <div class="main-slider__info">
+                            <div class="h1 main-slider__title">Продажа сельхозтехники</div>
+                            <div class="main-slider__text">В помощь высоким урожаям!</div>
+                            <a href="javascript:void(0)" class="main-slider__btn btn">Заказать консультацию</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="row">
+                <div class="col-5">
+                    <div class="main-slider__pagination-container">
+                        <div class="swiper-pagination main-slider__pagination"></div>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="panel-elements">
+                        <a href="javascript:void(0)" class="popup-video">
+                            <svg width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 24V2L18 13L1 24Z" stroke="currentColor" stroke-width="1.2"/>
+                            </svg>
+                        </a>
+                        <div class="params">
+                            <div class="params__name">мощность</div>
+                            <div class="params__value">583<span>л.с.</span></div>
+                        </div>
+                        <div class="params">
+                            <div class="params__name">производительность</div>
+                            <div class="params__value">303<span>л/мин</span></div>
+                        </div>
+                        <div class="slider-btn">
+                            <div class="swiper-button-prev btn-prev"></div>
+                            <div class="swiper-button-next btn-next"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="business-activity">
+        <div class="container">
+            <h2 class="element_underline">Направления деятельности</h2>
+
+            <div class="activities">
+                <div class="row">
+                    <div class="col-6">
+                        <a class="activity__item" href="#" style="background-image: url('./img/business/tech-1920.png');">
+                            <h4 class="activity__title">Техника</h4>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a class="activity__item" href="#" style="background-image: url('./img/business/service-1920.png');">
+                            <h4 class="activity__title">Сервис</h4>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a class="activity__item" href="#" style="background-image: url('./img/business/spare-parts-1920.png');">
+                            <h4 class="activity__title">Запчасти</h4>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a class="activity__item" href="#" style="background-image: url('./img/business/agriculture-1920.png');">
+                            <h4 class="activity__title">Точное земледелие</h4>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a class="activity__item" href="#" style="background-image: url('./img/business/b-u-1920.png');">
+                            <h4 class="activity__title">Техника Б/У</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="actions">
+        <div class="container">
+            <div class="actions-headline element_underline">
+                <h2>Акции</h2>
+
+                <div class="slider-btn hide-mobile">
+                    <div class="swiper-button-prev btn-prev"></div>
+                    <div class="swiper-button-next btn-next"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="slider-container">
+            <div class="swiper actions-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a class="action-slider__item" href="#" style="background-image: url('./img/actions/1-1920.png');" data-action="1">
+                            <div class="actions-slider__info">
+                                <h3 class="actions-slider__title">
+                                    Открытие первого памятника кировцу на юге россии
+                                </h3>
+                                <div class="actions-slider__promo">
+                                    Teamassistenz Marketing, Administration und Datenpflege Teamassistenz Marketing, Administration und Datenpflege (m/w/d)
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a class="action-slider__item" href="#" style="background-image: url('./img/actions/1-1920.png');" data-action="2">
+                            <div class="actions-slider__info">
+                                <h3 class="actions-slider__title">
+                                    Открытие первого памятника кировцу на юге россии
+                                </h3>
+                                <div class="actions-slider__promo">
+                                    Teamassistenz Marketing, Administration und Datenpflege Teamassistenz Marketing, Administration und Datenpflege (m/w/d)
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a class="action-slider__item" href="#" style="background-image: url('./img/actions/1-1920.png');" data-action="3">
+                            <div class="actions-slider__info">
+                                <h3 class="actions-slider__title">
+                                    Открытие первого памятника кировцу на юге россии
+                                </h3>
+                                <div class="actions-slider__promo">
+                                    Teamassistenz Marketing, Administration und Datenpflege Teamassistenz Marketing, Administration und Datenpflege (m/w/d)
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination actions-slider__pagination hide-desktop"></div>
+        </div>
+    </section>
+
+</body>
+
+<script src="@@webRoot/js/slider.js"></script>
+<script src="@@webRoot/js/main.js"></script>
+
+</html>
