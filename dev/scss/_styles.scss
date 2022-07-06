@@ -6,10 +6,10 @@ body, html{
 	font-family: $ff;
 	font-size: $globalFontsSize + px;
 	font-weight: 400;
+	overflow-x: hidden;
 }
 body{
 	color: $black;
-	overflow-x: hidden;
 
 	&.show{
 		overflow-x: hidden;
@@ -101,6 +101,7 @@ h4{
 	justify-content: space-between;
 	align-items: stretch;
 	margin: 0 auto;
+	position: relative;
 }
 .logo{
 	padding-left: 75px;
@@ -542,7 +543,7 @@ h4{
 		}
 
 		&:hover > .activity__title{
-			transform: scale(1.2);
+			transform: translate(15px, 0);
 		}
 	}
 	.activity__title{
